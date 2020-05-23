@@ -104,7 +104,7 @@ export default function App() {
         />
       </View>
       <View style={styles.tabbutton}>
-      {scanned && <Button title={'Tap to Scan Again'} onPress={() => setScanned(false)} />}
+      {scanned && <Button title={'Tekrar Tara'} onPress={() => setScanned(false)} />}
       </View>
       <View style={styles.userlist}>
         <ItemList datasource={data}></ItemList>
